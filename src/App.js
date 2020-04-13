@@ -12,6 +12,7 @@ import WordsList, {
 import {Provider} from "react-redux";
 import {combineReducers, createStore} from "redux";
 import ReduxSimple from "./examples/redux_simple/ReduxSimple";
+import Words from "./examples/words/Words";
 
 
 // Ex 00:
@@ -37,6 +38,8 @@ import ReduxSimple from "./examples/redux_simple/ReduxSimple";
 //         <WordsList/>
 //     </Provider>;
 
-const App = () => <ReduxSimple/>;
+// const App = () => <ReduxSimple/>;
+
+const App = () => <Words/>;
 
 export default App;
